@@ -1,0 +1,40 @@
+body {
+    background: palegoldenrod;
+    background-image: url(./Images/Atherstone_bus_station.jpg);
+    text-align: center;
+    background-position: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.container {
+    border: 1px solid white;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+button {
+    display: block;
+    padding: 10px 7px;
+    color: white;
+    border-radius: 5px;
+    margin: 8px auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#increment-btn {
+    background-color: green;
+}
+
+#decrement-btn {
+    background-color: fuchsia;
+}
+
+#save-btn {
+    background-color: red;
+}
+
